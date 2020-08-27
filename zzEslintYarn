@@ -1,0 +1,20 @@
+yarn create next-app setupreact
+
+yarn add typescript @types/react @types/node -D
+
+yarn add -D eslint
+
+yarn eslint --init
+
+yarn add -D eslint-plugin-react@latest @typescript-eslint/eslint-plugin@latest eslint-config-standard@latest eslint@>=6.2.2 eslint-plugin-import@>=2.18.0 eslint-plugin-node@>=9.1.0 eslint-plugin-promise@>=4.2.1 eslint-plugin-standard@>=4.0.0 @typescript-eslint/parser@latest
+
+yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
+
+yarn add -D babel-plugin-inline-react-svg
+
+yarn add next-images
+
+yarn add styled-components react-is
+
+yarn add @types/styled-components -D
+
